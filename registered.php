@@ -47,8 +47,7 @@
 			<p>
 				E-mail:
 				<?php echo htmlspecialchars($_POST["email"]);
-				mail($_POST["email"],"Long Horn The Band", "Beste ".htmlspecialchars($_POST["name"])."\n\nU bent succesvol geregistreerd.\n\nTot dan!\n\nLong Horn the band");
-				mail($_POST["longhorntheband@gmail.com"],"Long Horn The Band", "E-mail verstuurd:\n\nBeste ".htmlspecialchars($_POST["name"])."\n\nU bent succesvol geregistreerd.\n\nTot dan!\n\nLong Horn the band\n\nInfo voor Long Horn:\n".htmlspecialchars($_POST["email"])."\n".htmlspecialchars($_POST["phone"])."\n".htmlspecialchars($_POST["remarks"]));?>
+				mail($_POST["email"],"Long Horn The Band", "Beste ".htmlspecialchars($_POST["name"])."\n\nU bent succesvol geregistreerd.\n\nTot dan!\n\nLong Horn the band");?>
 			</p>
 			<p>
 				Telefoon:
